@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/itlh-react/static/css/main.6a934dfc.chunk.css",
+    "main.js": "/itlh-react/static/js/main.bb5a4156.chunk.js",
+    "main.js.map": "/itlh-react/static/js/main.bb5a4156.chunk.js.map",
+    "runtime-main.js": "/itlh-react/static/js/runtime-main.3be98dea.js",
+    "runtime-main.js.map": "/itlh-react/static/js/runtime-main.3be98dea.js.map",
+    "static/js/2.02f8e464.chunk.js": "/itlh-react/static/js/2.02f8e464.chunk.js",
+    "static/js/2.02f8e464.chunk.js.map": "/itlh-react/static/js/2.02f8e464.chunk.js.map",
+    "index.html": "/itlh-react/index.html",
+    "precache-manifest.5ba972cfd3680ff33835154a83d15b17.js": "/itlh-react/precache-manifest.5ba972cfd3680ff33835154a83d15b17.js",
+    "service-worker.js": "/itlh-react/service-worker.js",
+    "static/css/main.6a934dfc.chunk.css.map": "/itlh-react/static/css/main.6a934dfc.chunk.css.map",
+    "static/js/2.02f8e464.chunk.js.LICENSE.txt": "/itlh-react/static/js/2.02f8e464.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/itlh-react/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3be98dea.js",
+    "static/js/2.02f8e464.chunk.js",
+    "static/css/main.6a934dfc.chunk.css",
+    "static/js/main.bb5a4156.chunk.js"
+  ]
+}
