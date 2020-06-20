@@ -16,47 +16,47 @@ function AppRoutes() {
             <div>
                 <ul style={{ display: 'flex', justifyContent: 'center', margin: '20px' }}>
                     <li style={{ margin: '20px' }}>
-                        <Link to="/TicTacToe">Tic Tac Toe</Link>
+                        <Link to="/itlh-react/TicTacToe">Tic Tac Toe</Link>
                     </li>
                     <li style={{ margin: '20px' }}>
-                        <Link to="/todoClass">ToDo Using Class</Link>
+                        <Link to="/itlh-react/todoClass">ToDo Using Class</Link>
                     </li>
                     <li style={{ margin: '20px' }}>
-                        <Link to="/todoHooks">ToDo Using Hooks</Link>
+                        <Link to="/itlh-react/todoHooks">ToDo Using Hooks</Link>
                     </li>
                     <li style={{ margin: '20px' }}>
-                        <Link to="/clockClass">Clock using Class</Link>
+                        <Link to="/itlh-react/clockClass">Clock using Class</Link>
                     </li>
                     <li style={{ margin: '20px' }}>
-                        <Link to="/clockHooks">Clock using Hooks</Link>
+                        <Link to="/itlh-react/clockHooks">Clock using Hooks</Link>
                     </li>
                     <li style={{ margin: '20px' }}>
-                        <Link to="/crudClass">Crud using Class</Link>
+                        <Link to="/itlh-react/crudClass">Crud using Class</Link>
                     </li>
                     <li style={{ margin: '20px' }}>
-                        <Link to="/crudHooks">Crud using Hooks</Link>
+                        <Link to="/itlh-react/crudHooks">Crud using Hooks</Link>
                     </li>
                 </ul>
                 <Switch>
-                    <Route path="/TicTacToe">
+                    <Route path="/itlh-react/TicTacToe">
                         <TicTacToeComponent />
                     </Route>
-                    <Route path="/todoClass">
+                    <Route path="/itlh-react/todoClass">
                         <MyToDoClassComponent />
                     </Route>
-                    <Route path="/todoHooks">
+                    <Route path="/itlh-react/todoHooks">
                         <MyToDoHooksComponent />
                     </Route>
-                    <Route path="/clockClass">
+                    <Route path="/itlh-react/clockClass">
                         <ClockClassComponent />
                     </Route>
-                    <Route path="/clockHooks">
+                    <Route path="/itlh-react/clockHooks">
                         <ClockHooksComponent />
                     </Route>
-                    <Route path="/crudClass">
+                    <Route path="/itlh-react/crudClass">
                         <CrudClass />
                     </Route>
-                    <Route path="/crudHooks">
+                    <Route path="/itlh-react/crudHooks">
                         <CrudHooks />
                     </Route>
                     <Route path="/">
