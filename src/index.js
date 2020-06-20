@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import TicTacToeComponent from './TicTacToeComponent';
 import MyToDoClassComponent from './MyToDoClassComponent';
 import MyToDoHooksComponent from './MyToDoHooksComponent';
 import ClockClassComponent from './ClockClassComponent';
@@ -14,6 +15,9 @@ function AppRoutes() {
         <BrowserRouter>
             <div>
                 <ul style={{ display: 'flex', justifyContent: 'center', margin: '20px' }}>
+                    <li style={{ margin: '20px' }}>
+                        <Link to="/TicTacToe">Tic Tac Toe</Link>
+                    </li>
                     <li style={{ margin: '20px' }}>
                         <Link to="/todoClass">ToDo Using Class</Link>
                     </li>
@@ -34,6 +38,9 @@ function AppRoutes() {
                     </li>
                 </ul>
                 <Switch>
+                    <Route path="/TicTacToe">
+                        <TicTacToeComponent />
+                    </Route>
                     <Route path="/todoClass">
                         <MyToDoClassComponent />
                     </Route>
