@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90c20e6a3b4825345a66370beb57a5c4",
+    "revision": "4c8d67aea271fc63085aeade15b51db3",
     "url": "/itlh-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/itlh-react/static/css/2.4819d237.chunk.css"
   },
   {
-    "revision": "98d44e62fdf795724158",
-    "url": "/itlh-react/static/css/main.caf469f8.chunk.css"
+    "revision": "ae2a07c80faf00e7f154",
+    "url": "/itlh-react/static/css/main.7a1a9b96.chunk.css"
   },
   {
     "revision": "537c781fab25c7d42c35",
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/itlh-react/static/js/2.326ddbc7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98d44e62fdf795724158",
-    "url": "/itlh-react/static/js/main.1f9d3a96.chunk.js"
+    "revision": "ae2a07c80faf00e7f154",
+    "url": "/itlh-react/static/js/main.54ddcdb8.chunk.js"
   },
   {
     "revision": "1812be68df774a7c9859",
     "url": "/itlh-react/static/js/runtime-main.3be98dea.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/itlh-react/static/media/logo.5d5d9eef.svg"
+    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
+    "url": "/itlh-react/static/media/logo.ee7cd8ed.svg"
   }
 ]);
