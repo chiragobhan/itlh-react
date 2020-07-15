@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import './TicTacToe.css';
+import './App.css';
 
 function TicTacToeComponent() {
     let [player1, setPlayer1] = useState('');
@@ -112,7 +112,6 @@ function TicTacToeComponent() {
         setTurn(1);
         setXPlacement([]);
         setOPlacement([]);
-
     }
 
     return (
@@ -121,9 +120,9 @@ function TicTacToeComponent() {
                 <h1 className='heading'>Lets Play Tic Tac Toe</h1>
             </Row>
             {begin === false ?
-                <Row style={{ padding: '20px' }}>
-                    A two player game. Both players enter their names and click the begin button. Once the button is pressed, Player 1 gets X and Player 2 gets O. The begins with player 1 who can decide where to put the X and then select confirm. Then the turn goes to player 2 who can do the same. The game will check for 3 consecutive X's or 0's, whoever makes the first strike wins. Game is either a win or a draw. Game announces winner at the end.
-            </Row>
+                <Row className="description">
+                    A two player tic tac toe game. Both players enter their names and click the begin button. Once the button is pressed, Player 1 gets X and Player 2 gets O. The game begins with player 1 who can decide where to put the X. Then the turn goes to player 2 who can do the same. The game will check for 3 consecutive X's or 0's, whoever makes the first strike wins. Game is either a win or a draw. Game announces winner at the end.
+          </Row>
                 : null}
             {begin === false ?
                 <Form>
@@ -157,8 +156,8 @@ function TicTacToeComponent() {
 
                     {winnerAnnounced === true ?
                         <Row className="justify-content-center">
-                            <Button style={{ 'margin-top': '20px', 'margin-right': '10px' }} size="lg" variant="info" onClick={() => window.location.reload(false)}>Restart!</Button>
-                            <Button style={{ 'margin-top': '20px' }} size="lg" variant="success" onClick={playAgain}>Play Again!</Button>
+                            <Button style={{ 'marginTop': '20px', 'marginRight': '10px' }} size="lg" variant="info" onClick={() => window.location.reload(false)}>Restart!</Button>
+                            <Button style={{ 'marginTop': '20px' }} size="lg" variant="success" onClick={playAgain}>Play Again!</Button>
                         </Row>
                         : null}
 
@@ -187,6 +186,13 @@ function TicTacToeComponent() {
                             </Col>
                         </Row>
                     </div>
+                    {winnerAnnounced === false ?
+                        <Row className="endGameBtn">
+                            <Col>
+                                <Button variant="danger" onClick={() => window.location.reload(false)}>End Game</Button>
+                            </Col>
+                        </Row>
+                        : null}
                 </div>
                 : null}
 
