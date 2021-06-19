@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/itlh-react/static/css/main.7a1a9b96.chunk.css",
-    "main.js": "/itlh-react/static/js/main.abb87e6c.chunk.js",
-    "main.js.map": "/itlh-react/static/js/main.abb87e6c.chunk.js.map",
+    "main.css": "/itlh-react/static/css/main.9822942f.chunk.css",
+    "main.js": "/itlh-react/static/js/main.b8acf1d3.chunk.js",
+    "main.js.map": "/itlh-react/static/js/main.b8acf1d3.chunk.js.map",
     "runtime-main.js": "/itlh-react/static/js/runtime-main.3be98dea.js",
     "runtime-main.js.map": "/itlh-react/static/js/runtime-main.3be98dea.js.map",
     "static/css/2.4819d237.chunk.css": "/itlh-react/static/css/2.4819d237.chunk.css",
     "static/js/2.ffff5eb3.chunk.js": "/itlh-react/static/js/2.ffff5eb3.chunk.js",
     "static/js/2.ffff5eb3.chunk.js.map": "/itlh-react/static/js/2.ffff5eb3.chunk.js.map",
     "index.html": "/itlh-react/index.html",
-    "precache-manifest.730ef75eb2db999ae4b53cb8c58adcab.js": "/itlh-react/precache-manifest.730ef75eb2db999ae4b53cb8c58adcab.js",
+    "precache-manifest.95cc1f8456f318a56050c886905dcbe8.js": "/itlh-react/precache-manifest.95cc1f8456f318a56050c886905dcbe8.js",
     "service-worker.js": "/itlh-react/service-worker.js",
     "static/css/2.4819d237.chunk.css.map": "/itlh-react/static/css/2.4819d237.chunk.css.map",
-    "static/css/main.7a1a9b96.chunk.css.map": "/itlh-react/static/css/main.7a1a9b96.chunk.css.map",
+    "static/css/main.9822942f.chunk.css.map": "/itlh-react/static/css/main.9822942f.chunk.css.map",
     "static/js/2.ffff5eb3.chunk.js.LICENSE.txt": "/itlh-react/static/js/2.ffff5eb3.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/itlh-react/static/media/logo.ee7cd8ed.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.3be98dea.js",
     "static/css/2.4819d237.chunk.css",
     "static/js/2.ffff5eb3.chunk.js",
-    "static/css/main.7a1a9b96.chunk.css",
-    "static/js/main.abb87e6c.chunk.js"
+    "static/css/main.9822942f.chunk.css",
+    "static/js/main.b8acf1d3.chunk.js"
   ]
 }

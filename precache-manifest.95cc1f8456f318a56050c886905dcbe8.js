@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7a6ca8ae4ca221c9fbfabfa097f6def",
+    "revision": "337cd1b09cdbdfb626a00601e388d7ac",
     "url": "/itlh-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/itlh-react/static/css/2.4819d237.chunk.css"
   },
   {
-    "revision": "f82fb87ec50c792bfe45",
-    "url": "/itlh-react/static/css/main.7a1a9b96.chunk.css"
+    "revision": "c4522f373dbe1c97cfb2",
+    "url": "/itlh-react/static/css/main.9822942f.chunk.css"
   },
   {
     "revision": "284a4d5065b87ef22000",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/itlh-react/static/js/2.ffff5eb3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f82fb87ec50c792bfe45",
-    "url": "/itlh-react/static/js/main.abb87e6c.chunk.js"
+    "revision": "c4522f373dbe1c97cfb2",
+    "url": "/itlh-react/static/js/main.b8acf1d3.chunk.js"
   },
   {
     "revision": "1812be68df774a7c9859",
