@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import './App.css';
+import './TicTacToe.scss';
 
 function TicTacToeComponent() {
     let [player1, setPlayer1] = useState('');
@@ -115,7 +115,7 @@ function TicTacToeComponent() {
     }
 
     return (
-        <Container>
+        <Container className="tic-tac-toe">
             <Row className="justify-content-md-center">
                 <h1 className='heading'>Lets Play Tic Tac Toe</h1>
             </Row>

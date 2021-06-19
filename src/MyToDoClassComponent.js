@@ -51,8 +51,10 @@ class MyToDoClassComponent extends React.Component {
                 margin: '0 auto'
             }}>
                 <h1>My ToDo App by Class</h1>
-                <input type="text" placeholder="Enter a task" value={this.state.task} onChange={this.handleTaskTyping} />
-                <button onClick={this.addItemToTask}>Add</button>
+                <div style={{ textAlign: 'center', margin: '20px 0' }}>
+                    <input style={{ marginRight: '10px' }} type="text" placeholder="Enter a task" value={this.state.task} onChange={this.handleTaskTyping} />
+                    <button onClick={this.addItemToTask}>Add</button>
+                </div>
                 {this.state.pendingTaskList.length > 0 ? <h3>Pending Tasks:</h3> : null}
                 <ul>
                     <table>

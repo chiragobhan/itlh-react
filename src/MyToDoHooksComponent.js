@@ -1,33 +1,28 @@
 import React, { useState } from 'react';
 
-function MyToDoHooksComponent()
-{
-    let [task,setTask] = useState('');
-    let [pendingTaskList,setPendingTaskList] = useState([]);
+function MyToDoHooksComponent() {
+    let [task, setTask] = useState('');
+    let [pendingTaskList, setPendingTaskList] = useState([]);
     let [completedTaskList, setCompletedTaskList] = useState([]);
-    let [checked,setChecked] = useState(false);
+    let [checked, setChecked] = useState(false);
 
-    function handleChange(event) 
-    {
+    function handleChange(event) {
         setTask(event.target.value);
     }
 
-    function addItemToTask()
-    {
+    function addItemToTask() {
         let pendingTaskListCopy = pendingTaskList;
         pendingTaskListCopy.push(task);
         setPendingTaskList(pendingTaskListCopy);
         setTask('');
     }
 
-    function markDone(task)
-    {
+    function markDone(task) {
         let pendingTaskListCopy = pendingTaskList;
         let completedTaskListCopy = completedTaskList;
         for (let i = 0; i < pendingTaskListCopy.length; i++) {
-            if (pendingTaskListCopy[i] === task)
-            {
-                pendingTaskListCopy.splice(i,1);
+            if (pendingTaskListCopy[i] === task) {
+                pendingTaskListCopy.splice(i, 1);
                 break;
             }
         }
@@ -43,8 +38,10 @@ function MyToDoHooksComponent()
             margin: '0 auto'
         }}>
             <h1>My ToDo App by Hooks</h1>
-            <input type="text" placeholder="Enter a task" value={task} onChange={handleChange} />
-            <button onClick={addItemToTask}>Add</button>
+            <div style={{ textAlign: 'center', margin: '20px 0' }}>
+                <input style={{ marginRight: '10px' }} type="text" placeholder="Enter a task" value={task} onChange={handleChange} />
+                <button onClick={addItemToTask}>Add</button>
+            </div>
             {pendingTaskList.length > 0 ? <h3>Pending Tasks:</h3> : null}
             <ul>
                 <table>
@@ -81,7 +78,7 @@ function MyToDoHooksComponent()
                     </tbody>
                 </table>
             </ul>
-            </div>
+        </div>
     );
 }
 
