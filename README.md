@@ -1,3 +1,7 @@
+Merged a few hands-on projects to understand the difference between Hooks vs Class. Used React Router for navigation.  
+Live Demo - https://chiragobhan.github.io/itlh-react/  
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
